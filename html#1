@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<pre>
+<h1>            My First Form</h1>
+</pre>
+<label for="firstname">First Name</label>
+<input style="margin-left:90px"; type="text"id="firstname" name="Firstname"><br><br>
+<label for="Lastname">Lastname</label>
+<input style="margin-left:99px"; type="test" id="Lastname" name="Lastname"><br><br>
+<label for="MOB">Mobile Number</label>
+<input style="margin-left:60px"; type="number" id="MOB" name="Mobile Number"><br><br>
+<label for="DOB">Date Of Birth</label>
+<input style="margin-left:75px"; type="text" id="DOB" name="Date Of Birth"><br><br>
+<button style="margin-left:200px" onclick="datafunction()">
+submit
+</button>
+</body>
+</html>
