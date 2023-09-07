@@ -1,0 +1,11 @@
+function datafunction(){
+var fname = document.getElementById("firstname");
+var lname = document.getElementById("Lastname");
+var mob = document.getElementById("MOB");
+var dob = document.getElementById("DOB");
+console.log("Sample Data:");
+console.log("First Name:"+' '+ fname.value);
+console.log("Last Name:"+' '+lname.value);
+console.log("Mobile Number:"+' '+mob.value);
+console.log("Date Of Birth:"+' '+dob.value);
+}
