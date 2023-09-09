@@ -1,0 +1,45 @@
+function myfunction() {
+  var fname = document.getElementById("firstname").value;
+  if (!fname) {
+    alert("Firstname is required")
+    return false;
+  }
+  if (firstname.value.length < 3) {
+    alert("Invalid Firstname")
+    return false;
+  }
+  var lname = document.getElementById("Lastname").value;
+  if (!lname) {
+    alert("lastname is required")
+    return false;
+  }
+  if (Lastname.value.length < 3) {
+    alert("Invalid Lastname")
+    return false;
+  }
+  var mob = document.getElementById("MOB").value;
+  if (!mob) {
+    alert("mobile number is required")
+    return false;
+  }
+  if (MOB.value.length != 10) {
+    alert("Invalid Mobilenumber")
+    return false;
+  }
+  var dob = document.getElementById("DOB").value;
+  if (!dob) {
+    alert("date of birth is required")
+    return false;
+  }
+  var a= new Date();
+  var b= new Date(dob);
+  if(b.getTime()>=a.getTime()){
+  alert("Invalid Date Of Birth");
+  return false;
+  }
+  console.log("Sample Data:");
+  console.log("First Name:" + ' ' + fname);
+  console.log("Last Name:" + ' ' + lname);
+  console.log("Mobile Number:" + ' ' + mob);
+  console.log("Date Of Birth:" + ' ' + dob);
+}
