@@ -1,0 +1,27 @@
+function myfunction(){
+var fname = document.getElementById("firstname").value;
+if (!fname) {
+   alert("Firstname is required")
+   return false;
+     };
+var lname = document.getElementById("Lastname").value;
+if (!lname) {
+         alert("lastname is required")
+         return false;
+         };
+var mob = document.getElementById("MOB").value;
+if (!mob) {
+    alert("mobile number is required")
+    return false;
+        };
+var dob = document.getElementById("DOB").value;
+if (!dob) {
+          alert("date of birth is required")
+          return false;
+        };
+console.log("Sample Data:");
+console.log("First Name:"+' '+ fname);
+console.log("Last Name:"+' '+lname);
+console.log("Mobile Number:"+' '+mob);
+console.log("Date Of Birth:"+' '+dob);
+}
