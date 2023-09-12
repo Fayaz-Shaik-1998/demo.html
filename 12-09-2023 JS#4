@@ -1,0 +1,58 @@
+function myfunction() {
+  var fname = document.getElementById("firstname").value;
+ //if(!fname) used to check the value is defined (or) not
+ if (!fname) {
+    alert("Firstname is required")
+    return false;
+  }
+  //this condition used to check the input value character length
+  if (firstname.value.length < 3) {
+    alert("Invalid Firstname")
+    return false;
+  }
+  var lname = document.getElementById("Lastname").value;
+  //if(!lname) used to check the value is defined (or) not
+  if (!lname) {
+    alert("lastname is required")
+    return false;
+  }
+  //this condition used to check the input value character length
+  if (Lastname.value.length < 3) {
+    alert("Invalid Lastname")
+    return false;
+  }
+  var mob = document.getElementById("MOB").value;
+  ////if(!lname) used to check the value is defined (or) not
+  if (!mob) {
+    alert("mobile number is required")
+    return false;
+  }
+  if (MOB.value.length != 10) {
+    alert("Invalid Mobilenumber")
+    return false;
+  }
+  var dob = document.getElementById("DOB").value;
+  if (!dob) {
+    alert("date of birth is required")
+    return false;
+  }
+  var a= new Date();
+  var b= new Date(dob);
+  if(b.getTime()>=a.getTime()){
+  alert("Invalid Date Of Birth");
+  return false;
+  }
+//Creating a alert for all values insert  
+ alert("values inserted")
+ //creating a object
+var ObjectForm = {'First_Name': firstname.value, 'Last_Name': Lastname.value,'Mobile_Number' : MOB.value,'Date Of Birth': DOB.value
+                };
+   console.log(ObjectForm);
+  
+  //('') it can return a empty string
+   var fname = document.getElementById("firstname").value='';
+   var lname = document.getElementById("Lastname").value='';
+   var mob = document.getElementById("MOB").value='';
+   var dob = document.getElementById("DOB").value='';
+   
+   }
