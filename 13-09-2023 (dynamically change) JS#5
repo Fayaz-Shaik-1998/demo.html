@@ -1,0 +1,32 @@
+function sec(fname, type) {
+  if (!fname) {
+    alert(type + " is required")
+    return false;
+  } else if (fname.length < 3) {
+    alert("Invalid " + type)
+    return false;
+  } else
+    return true;
+
+}
+
+function myfunction() {
+  var fname = document.getElementById("firstname").value;
+  var lname = document.getElementById("lastname").value;
+  var mname =document.getElementById("middlename").value;
+  var type = 'First Name'
+  var type2 = 'Last Name'
+  var type3 = 'Middle Name'
+  var y = sec(fname, type);
+  if (!y)
+    return;
+  var z = sec(lname, type2);
+  if (!z)
+    return;
+    var f=sec(mname,type3)
+   if(!f)
+   return;
+  console.log("Firstname:" + fname);
+  console.log("Lastname:" + lname);
+  console.log("Middlename:" + mname);
+}
