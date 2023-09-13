@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+    <pre>
+<h1>            My First Form</h1>
+</pre>
+    <label for="firstname">First Name</label>
+    <input style="margin-left:90px" ; type="text" id="firstname" name="Firstname"><br><br>
+    <label for="lastname">Lastname</label>
+    <input style="margin-left:99px" ; type="test" id="lastname" name="Lastname"><br><br>
+     <label for="middle">middlename</label>
+    <input style="margin-left:99px" ; type="test" id="middlename" name="middlename"><br><br>
+    <button style="margin-left:200px" onclick="myfunction()">
+      Add
+    </button>
+  </body>
+
+</html>
