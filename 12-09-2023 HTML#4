@@ -13,7 +13,7 @@
     <input style="margin-left:60px" ; type="number" id="MOB" name="Mobile Number"><br><br>
     <label for="DOB">Date Of Birth</label>
     <input style="margin-left:75px" ; type="date" id="DOB" name="Date Of Birth"><br><br>
-    <button style="margin-left:200px" onclick="myfunction()" value="Clear Fields">
+    <button style="margin-left:200px" onclick="myfunction()">
       Add
     </button>
   </body>
